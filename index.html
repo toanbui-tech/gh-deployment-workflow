@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Actions Deployment</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: white;
+      padding: 3rem;
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 600px;
+      margin: 2rem;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+    }
+    .subtitle {
+      color: #666;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .feature {
+      background: #f8f9fa;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      border-left: 4px solid #667eea;
+    }
+    .status {
+      display: inline-block;
+      background: #28a745;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-weight: bold;
+      margin: 1rem 0;
+    }
+    .github-link {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .github-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 GitHub Actions Deployment</h1>
+    <p class="subtitle">Successfully deployed using CI/CD pipeline</p>
+    
+    <div class="status">✅ Deployment Active</div>
+    
+    <div class="feature">
+      <strong>🎯 Trigger:</strong> Changes to index.html on main branch
+    </div>
+    
+    <div class="feature">
+      <strong>⚡ Automation:</strong> GitHub Actions workflow
+    </div>
+    
+    <div class="feature">
+      <strong>🌐 Hosting:</strong> GitHub Pages
+    </div>
+    
+    <p>
+      This website is automatically deployed whenever the <code>index.html</code> file is updated and pushed to the main branch.
+      The deployment process is handled by a GitHub Actions workflow located in <code>.github/workflows/deploy.yml</code>.
+    </p>
+    
+    <p>
+      <a href="https://github.com/your-username/gh-deployment-workflow" class="github-link">
+        View Repository on GitHub →
+      </a>
+    </p>
+  </div>
+</body>
+</html>
